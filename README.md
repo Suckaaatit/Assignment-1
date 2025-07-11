@@ -75,27 +75,17 @@ Metrics used:
 - F1-Score
 
 ---
-
-## 🚀 How to Run
-
-### 1. Install dependencies
-
-```bash
-pip install pandas scikit-learn
-
-2. Run the code
-Place LOAD_DATA.CSV in the project directory and run the Python script or Jupyter Notebook.
-
-The output includes model performance reports for all classifiers.
-
 📊 Results
-Logistic Regression
-<img width="479" height="248" alt="image" src="https://github.com/user-attachments/assets/c94c19ee-097f-4b86-bf81-d9b432657852" />
-Decision Tree
-<img width="367" height="191" alt="image" src="https://github.com/user-attachments/assets/0c1b94de-e49d-4833-8d22-41d79bb37987" />
-Random Forest
-<img width="350" height="166" alt="image" src="https://github.com/user-attachments/assets/af66aa19-d6c3-4b21-bc17-3e08e36416e8" />
-This is the result for Random Forest
 
+Logistic Regression
+<img width="338" height="169" alt="image" src="https://github.com/user-attachments/assets/f319156b-601d-4202-a6fb-58fefdaf7379" />
+
+Decision Tree
+<img width="335" height="174" alt="image" src="https://github.com/user-attachments/assets/a19e8a52-face-4d57-a0f8-4bad9e975877" />
+
+Random Forest
+<img width="353" height="164" alt="image" src="https://github.com/user-attachments/assets/4ee08a97-7085-4ae7-a3b0-54825968d245" />
+
+This is the result and it tells us that Random Forest is the best among all three alogs used
 
 
