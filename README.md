@@ -1,4 +1,4 @@
-# ⚡ Assignment-1 — Power Load Prediction  
+#  Assignment-1 — Power Load Prediction  
 *USEREADY*
 
 This project is a classic classification task aimed at predicting the **load type on a power grid** — either **LIGHT**, **MEDIUM**, or **MAXIMUM LOAD** — based on historical energy usage and environmental data.
@@ -7,7 +7,7 @@ It covers the **end-to-end data science workflow**, from data preprocessing to f
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 
 The goal was to build a machine learning model that classifies power grid load types using features like:
 
@@ -18,7 +18,7 @@ The goal was to build a machine learning model that classifies power grid load t
 
 ---
 
-## 📂 The Dataset
+##  The Dataset
 
 Filename: `LOAD_DATA.CSV`  
 The dataset includes the following key columns:
@@ -37,14 +37,14 @@ The dataset includes the following key columns:
 
 ## 🔧 How It Works
 
-### 1. 🧹 Data Preprocessing
+### 1.  Data Preprocessing
 
 - Renamed inconsistent column headers
 - Filled missing values:
   - **Numerical**: Median
   - **Categorical**: Mode
 
-### 2. 🛠 Feature Engineering
+### 2.  Feature Engineering
 
 From the `DATE_TIME` field, the following were extracted:
 
@@ -52,14 +52,14 @@ From the `DATE_TIME` field, the following were extracted:
 - `DAYOFWEEK` — day of the week (0 = Monday)
 - `MONTH` — numeric month
 
-### 3. 🧪 Train/Test Split
+### 3.  Train/Test Split
 
 - Used the **last month** of the dataset as the **test set**
 - Remaining data used for **training**
 
 This time-based split simulates a real-world future prediction scenario.
 
-### 4. 🤖 Model Training & Evaluation
+### 4.  Model Training & Evaluation
 
 Tested the following models:
 
@@ -75,7 +75,7 @@ Metrics used:
 - F1-Score
 
 ---
-📊 Results
+ Results
 
 Logistic Regression
 <img width="338" height="169" alt="image" src="https://github.com/user-attachments/assets/f319156b-601d-4202-a6fb-58fefdaf7379" />
